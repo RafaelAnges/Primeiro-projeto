@@ -4,7 +4,7 @@ body{
 }
 .menu-principal{
     width: 100%;
-    background-color: green;
+    background-color: black;
     height: 80px;
 }
 main{
@@ -13,5 +13,21 @@ main{
     position: relative;
 }
 .logo{
-    padding: 1px;
+    float: left;
+    padding: 0px;
+    width: 70%;
 }
+h1{
+    color: blue;
+}
+.redes-sociais ul li{
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    
+}
+.redes-sociais{
+    width: 20%;
+    float: right;
+}
+
