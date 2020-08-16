@@ -3,6 +3,10 @@ body{
     height: 100%;
     margin: 0 auto;
 }
+ul{
+    padding: 0px!important;
+}
+
 .menu-principal{
     width: 100%;
     background-color: black;
@@ -26,17 +30,28 @@ h1{
     padding: 5px;
     display: inline-block;
     float: left;
-    
+    list-style: none;
     
 }
 .redes-sociais{
     width: 24%;
     float: right;
 }
+
+
+
+
 .header-2{
-    width: 100%;
-    background-color:#ffff;
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+  
+
+}
+.menu-urls{
     border-bottom: 3px solid #efefef;
+   height: 80px;
 
 }
 .menu ul li{
@@ -57,7 +72,22 @@ h1{
     float: left;
 }
 .busca{
+    text-align: center;
     width: 30%;
     float: right;
 }
-
+.busca input{
+    background-image: url(../img/search2.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
