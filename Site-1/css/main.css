@@ -26,8 +26,8 @@ h1{
     color: blue;
 }
 .redes-sociais ul li{
-    margin-left: 10px;
-    padding: 5px;
+    margin-left: 30px;
+    padding: 1px;
     display: inline-block;
     float: left;
     list-style: none;
@@ -57,12 +57,21 @@ h1{
 .menu ul li{
     margin-left: 15px;
     display: inline-block;
-    color: black;
-    
+    color: #8b8b8b;  
 }
+
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+    height: 50px;
+}
+
+.menu ul li a:hover{
+    color: #00bac6;
+}
+
 .menu ul li a{
     text-decoration: none;
-    color: black;
+    color: #8b8b8b;
     font-size: 17px;
     text-transform: uppercase;
 
