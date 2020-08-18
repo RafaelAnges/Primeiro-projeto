@@ -100,3 +100,21 @@ h1{
     float: left;
     position: relative;
 }
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+   
+
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+
+    }
+    ul.slick-dots li button{
+        font-size: 0px;
+        border: none;
+    }
