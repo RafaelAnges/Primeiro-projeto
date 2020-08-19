@@ -136,6 +136,7 @@ button.slick-next{
 .slick-initialized {
     overflow: hidden;
 }
+
 .slick-dots li button{
     font-size: 0px;
     border: 5px solid #ffffff;
@@ -145,6 +146,7 @@ button.slick-next{
     border-radius: 50%;
     cursor: pointer;
 }
+
 .slick-dots{
     margin:0 auto;
     width: 50%;
@@ -152,9 +154,11 @@ button.slick-next{
     left: 50%;
     top: 660px;
 }
+
 li.slick-active button{
     background: #00bac6;
 }
+
 .slick-dots li{
     padding-left:10px ;
     display: inline-block;
