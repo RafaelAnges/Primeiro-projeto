@@ -147,6 +147,7 @@ button.slick-next{
     cursor: pointer;
 }
 
+
 .slick-dots{
     margin:0 auto;
     width: 50%;
@@ -155,9 +156,11 @@ button.slick-next{
     top: 660px;
 }
 
+
 li.slick-active button{
     background: #00bac6;
 }
+
 
 .slick-dots li{
     padding-left:10px ;
