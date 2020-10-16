@@ -12,7 +12,7 @@ ul{
     background-color: black;
     height: 80px;
 }
-main{
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -22,7 +22,7 @@ main{
     padding: -1px;
     width: 70%;
 }
-h1{
+.nome{
     color: blue;
 }
 .redes-sociais ul li{
@@ -161,6 +161,29 @@ li.slick-active button{
 .slick-dots li{
     padding-left:10px ;
     display: inline-block;
+}
+
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque strong{
+    color: #646464;
+}
+
+.texto-destaque h1{
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p{
+    font-size: 15px;
+    color: #9a9a9a;
+
+}
+
+.col-3{
+    display: inline-block;
+margin-left: 10px;
 }
 
 
