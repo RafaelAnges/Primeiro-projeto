@@ -18,13 +18,13 @@ main, .content {
     position: relative;
 }
 .logo{
+    color: white;
     float: left;
     padding: -1px;
     width: 70%;
 }
-.nome{
-    color: blue;
-}
+
+
 .redes-sociais ul li{
     margin-left: 30px;
     padding: 1px;
@@ -182,10 +182,14 @@ li.slick-active button{
 }
 
 .col-3{
-    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+   display: inline-block;
 margin-left: 10px;
 }
 
-
+.bloco-texto{
+    margin-top: 3em;
+}
 
 
